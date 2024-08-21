@@ -1,9 +1,13 @@
 import styles from "./Header.module.css";
+import {Footer} from "/.components"
+import {Main} from "/.components"
 
-export default function Header() {
+
+export function Header() {
     return (
-        <div className= {styles.container}>
-            <h1>Ola</h1>
-        </div>
+        <>
+        Header
+        </>
+
     )
 }
