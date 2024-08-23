@@ -1,0 +1,13 @@
+.Footer{
+    background-color: var(--cinza);
+    color: var(--rosa);
+    font-size: 1rem;
+    padding: 10px;
+    /* font-family:'Courier New', Courier, monospace; */
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}

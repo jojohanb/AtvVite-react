@@ -1,0 +1,5 @@
+.Main{
+    background-color: var(--cinza);
+    text-align: center;
+    border: 3px solid var(--rosa);
+}

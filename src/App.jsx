@@ -7,7 +7,7 @@ export function App() {
     <>
       <Header/>
       <Main/>
-      <Footer/>
+      <Footer autor="Jova"/> 
     </>
   )
 }
