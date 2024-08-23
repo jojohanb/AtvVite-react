@@ -1,13 +1,5 @@
-import styles from "./Header.module.css";
-import {Footer} from "/.components"
-import {Main} from "/.components"
-
-
-export function Header() {
-    return (
-        <>
-        Header
-        </>
-
+export function Header(){
+    return(
+        <h1>Cabeçalho</h1>
     )
 }
