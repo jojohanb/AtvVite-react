@@ -1,5 +1,60 @@
 .Main{
-    background-color: var(--cinza);
+    /* background-color: var(--cinza); */
     text-align: center;
     border: 3px solid var(--rosa);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    
 }
+
+.Main button{
+    width: 20px;
+    border-radius: 5px;
+    background-color: var(--rosa);
+    color: var(--cinza);
+}
+
+.Main input{
+    width: 200px;
+    border-radius: 5px;
+}
+
+.barra{
+    width: 500px;
+    height: 30px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--cinza);
+}
+
+.box{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--cinza);
+}
+
+.caxa{
+    width: 400px;
+    height: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    flex-wrap: wrap;
+    border: 1px solid rgb(194, 194, 194);
+    flex-direction: row;
+    justify-content:space-between;
+    border-radius: 5px;
+}
+
